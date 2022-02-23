@@ -90,6 +90,7 @@ topicName: {
     marginLeft: 20,
     textTransform: 'uppercase', 
     fontSize: 30, 
+    fontWeight: 'bold'
 }
 })
 
