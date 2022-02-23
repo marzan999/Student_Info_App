@@ -5,18 +5,18 @@ import { StatusBar } from 'expo-status-bar'
 export const STUDENT_LIST = [
   {
     name: 'marzan',
-    description: 'student a',
+    description: 'I am Marzan Islam. I am from Bogura. At present, I am a student of Dhaka International University.',
     image: require('../../assets/marzan.jpeg')
   },
   {
     name: 'nitish',
-    description: 'student b',
+    description: 'I am Nitish Biswas. I am from Madaripur. At present, I am a student of Dhaka International University.',
     image: require('../../assets/nitish.jpg')
 
   },
   {
     name: 'maruf',
-    description: 'student c',
+    description: 'I am Abdullah Al Maruf. I am from Gaibandha. At present, I am a student of Dhaka International University.',
     image: require('../../assets/maruf.jpg')
   }
 ]
@@ -71,7 +71,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderWidth: 5,
     borderRadius: 30,
-    margin: 10
+    margin: 10, 
+    backgroundColor: '#B0C4DE'
   },
   textStyle: {
     fontSize: 30,
@@ -90,7 +91,10 @@ topicName: {
     marginLeft: 20,
     textTransform: 'uppercase', 
     fontSize: 30, 
-    fontWeight: 'bold'
+    fontWeight: 'bold', 
+    color: '#000080',
+    
+   
 }
 })
 
