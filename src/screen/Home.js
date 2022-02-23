@@ -27,19 +27,6 @@ export default function Home({ navigation }) {
     const { name } = item
 
     return (
-      // <View>
-      //   <TouchableOpacity style={styles.viewStyle}>
-      //     <Text style={styles.textStyle}>Marzan</Text>
-      //   </TouchableOpacity>
-
-      //   <TouchableOpacity style={styles.viewStyle}>
-      //     <Text style={styles.textStyle}>Nitish</Text>
-      //   </TouchableOpacity>
-
-      //   <TouchableOpacity style={styles.viewStyle}>
-      //     <Text style={styles.textStyle}>Maruf</Text>
-      //   </TouchableOpacity>
-      // </View>
       <TouchableOpacity onPress={() => navigation.navigate("Details", { topic: item })} style={styles.viewStyle}>
         <View>
           <Text style={styles.topicName} >{name}</Text>
